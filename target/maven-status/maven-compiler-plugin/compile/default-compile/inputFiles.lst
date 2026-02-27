@@ -23,6 +23,7 @@ D:\Java_Programming\Micro_Project\railway-backend\src\main\java\com\railway\mode
 D:\Java_Programming\Micro_Project\railway-backend\src\main\java\com\railway\dto\AuthResponse.java
 D:\Java_Programming\Micro_Project\railway-backend\src\main\java\com\railway\model\Payment.java
 D:\Java_Programming\Micro_Project\railway-backend\src\main\java\com\railway\service\UserService.java
+D:\Java_Programming\Micro_Project\railway-backend\src\main\java\com\railway\config\CorsConfig.java
 D:\Java_Programming\Micro_Project\railway-backend\src\main\java\com\railway\security\JwtUtil.java
 D:\Java_Programming\Micro_Project\railway-backend\src\main\java\com\railway\repository\BookingRepository.java
 D:\Java_Programming\Micro_Project\railway-backend\src\main\java\com\railway\RailwayApplication.java

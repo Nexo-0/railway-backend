@@ -9,6 +9,7 @@ com\railway\repository\TrainRepository.class
 com\railway\security\CustomUserDetailsService.class
 com\railway\model\Booking.class
 com\railway\dto\AuthRequest.class
+com\railway\config\CorsConfig.class
 com\railway\service\BookingService.class
 com\railway\repository\UserRepository.class
 com\railway\controller\AuthController.class
