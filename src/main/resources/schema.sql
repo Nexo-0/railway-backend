@@ -1,0 +1,3 @@
+-- schema.sql is intentionally empty.
+-- Tables are created by Hibernate (spring.jpa.hibernate.ddl-auto=create in application.properties).
+-- Seed data is provided in data.sql, which runs AFTER Hibernate DDL via spring.jpa.defer-datasource-initialization=true.

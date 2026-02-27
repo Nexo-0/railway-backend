@@ -1,0 +1,2 @@
+-- Data seeding is handled by DataInitializer.java (ApplicationRunner) on startup.
+-- This file is intentionally left empty to avoid duplicate inserts.
