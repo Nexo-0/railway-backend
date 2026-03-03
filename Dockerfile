@@ -3,12 +3,12 @@ FROM eclipse-temurin:17-jdk-jammy AS builder
 
 WORKDIR /build
 
-# Copy Maven wrapper and pom first (layer-cache dependencies)
+# Install Maven
+RUN apt-get update -q && apt-get install -y -q maven
+
+# Copy pom first to cache dependency downloads separately
 COPY pom.xml .
-COPY .mvn/ .mvn/
-# Download dependencies only (cached unless pom.xml changes)
-RUN apt-get update -q && apt-get install -y -q maven \
-    && mvn dependency:go-offline -q 2>/dev/null || true
+RUN mvn dependency:go-offline -q 2>/dev/null || true
 
 # Copy source and build the JAR (skip tests for faster builds)
 COPY src/ src/
