@@ -168,27 +168,7 @@
                 </executions>
             </plugin>
 
-            <!-- toolchains plugin requests JDK 21 if available -->
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-toolchains-plugin</artifactId>
-                <version>3.1.0</version>
-                <configuration>
-                    <toolchains>
-                        <jdk>
-                            <version>21</version>
-                            <vendor>oracle</vendor>
-                        </jdk>
-                    </toolchains>
-                </configuration>
-                <executions>
-                    <execution>
-                        <goals>
-                            <goal>toolchain</goal>
-                        </goals>
-                    </execution>
-                </executions>
-            </plugin>
+
 
         </plugins>
     </build>
